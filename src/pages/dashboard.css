@@ -1,0 +1,412 @@
+#main-wrapper {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 1fr 7fr;
+  grid-template-rows: 100%;
+}
+
+aside {
+  display: grid;
+  grid-template-rows: repeat(3, max-content);
+  padding: 20px;
+  gap: 20px;
+  border-right: 1px solid rgb(224, 223, 235);
+}
+
+aside ul {
+  display: grid;
+  row-gap: 10px;
+}
+
+aside li {
+  display: grid;
+  column-gap: 7px;
+}
+
+aside h1 {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #646464;
+}
+
+ul h2 {
+  font-weight: 400;
+}
+
+#logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+#logo-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #3183ff;
+}
+
+#logo-img {
+  width: 30px;
+}
+
+#header-title {
+  display: grid;
+  row-gap: 5px;
+  margin-left: 20px;
+}
+
+#header-title h6 {
+  color: #757a8a;
+  font-weight: 300;
+}
+
+#header-title h1 {
+  font-weight: 400;
+}
+
+#profile-container h2 {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+#profile-container h6 {
+  font-weight: 200;
+}
+
+#main-content {
+  display: grid;
+  grid-template-rows: 80px calc(100% - 80px);
+}
+
+header {
+  display: grid;
+  grid-template-columns: 6fr 1fr 0.5fr;
+  align-items: center;
+  border-bottom: 1px solid rgb(224, 223, 235);
+}
+
+header img {
+  width: 60px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  justify-content: space-evenly;
+  align-content: space-around;
+  margin: min(10%, 20px);
+  gap: min(10%, 20px);
+}
+
+section {
+  border: 1px solid rgb(224, 223, 235);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#history {
+  display: grid;
+  row-gap: 10px;
+  padding: 20px;
+}
+
+#main-graph-img {
+  /* width: 80%; */
+}
+
+.graph-details-img {
+  width: 80%;
+}
+
+#history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: rgb(224, 223, 235);
+}
+
+#graph-footer {
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.graph-details {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 2fr 1fr;
+}
+
+.graph-details-img {
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+
+#graph-map {
+  display: flex;
+  gap: 30px;
+}
+
+.graph-map-details {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.graph-details-details {
+  display: flex;
+  gap: 20px;
+}
+
+.graph-details-details div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+#profile-container {
+  display: grid;
+  align-items: center;
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 5px;
+}
+
+#profile-container h2 {
+  align-self: end;
+}
+
+#profile-container h6 {
+  align-self: start;
+}
+
+#profile-img {
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+
+#profile-down-arrow {
+  grid-row: 1/3;
+  grid-column: 3/4;
+}
+
+#total-revenue {
+  display: grid;
+  align-content: space-between;
+}
+
+#total-revenue h6 {
+  color: #646464;
+  font-weight: 300;
+}
+
+#total-revenue .value {
+  color: #130d33;
+  font-weight: 400;
+}
+
+#total-revenue img {
+  max-height: 200px;
+}
+
+.revenue-details {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, max-content);
+}
+
+#buy-sell-table-container {
+  display: grid;
+  align-content: space-between;
+  padding: 20px;
+}
+
+table {
+  font-size: 0.7rem;
+  color: #a098ae;
+}
+
+#buy-sell-table-container img {
+  width: 30px;
+}
+
+thead th {
+  display: flex;
+  font-weight: 400;
+}
+
+th:last-of-type {
+  justify-content: flex-end;
+}
+
+td {
+  display: flex;
+  align-items: center;
+}
+
+td:last-of-type {
+  justify-content: flex-end;
+}
+
+tr {
+  display: grid;
+  padding: 10px 0;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+tbody tr {
+  border-top: 1px solid rgb(224, 223, 235);
+}
+
+.first-table-col {
+  display: grid;
+  column-gap: 5px;
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: repeat(2, max-content);
+}
+
+.first-table-col img {
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+
+.first-table-col h4:first-of-type {
+  color: #130d33;
+}
+
+.first-table-col h4:last-of-type {
+  font-weight: 200;
+}
+
+.nav-item {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+}
+
+#buy-sell-form-container form {
+  display: grid;
+  height: 100%;
+  align-content: space-between;
+}
+
+#inputs-container {
+  display: grid;
+  row-gap: 10px;
+}
+
+form h1 {
+  font-weight: 500;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#switch-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ecf6f9;
+}
+
+#switch-container button {
+  width: 50%;
+  padding: 5px 0;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  border: none;
+}
+
+#buy {
+  background-color: #3183ff;
+  color: white;
+}
+
+#sell {
+  background-color: #ecf6f9;
+  color: #3183ff;
+}
+
+.input-label {
+  font-size: 0.7rem;
+  color: #a098ae;
+}
+.input {
+  border-radius: 5px;
+  background-color: #ecf6f9;
+  border-color: #b4ccf0;
+  height: 32px;
+}
+
+#submit-button {
+  background-color: #3183ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.section-title {
+  font-weight: 400;
+}
+
+#history-button-group {
+  border: 1px solid rgb(224, 223, 235);
+  border-radius: 5px;
+}
+
+#history-button-group button {
+  background-color: transparent;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #757a8a;
+  font-size: 0.7rem;
+}
+
+#history-button-group .active {
+  background-color: #3183ff;
+  color: white;
+  font-weight: 300;
+}
+
+.graph-map-details h6 {
+  color: #757a8a;
+  font-weight: 400;
+}
+
+.graph-details-title {
+  color: #757a8a;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.amount {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.diff-percent-container-up {
+  color: #3183ff;
+}
+
+.diff-percent-container-down {
+  color: #ea7465;
+}
+
+.percentage {
+  font-size: 0.8rem;
+  font-weight: 400;
+}

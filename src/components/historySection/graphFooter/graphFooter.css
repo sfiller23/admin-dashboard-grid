@@ -1,0 +1,55 @@
+#graph-footer {
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.graph-details {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 2fr 1fr;
+}
+
+.graph-details-img {
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+
+.graph-details-container {
+  display: flex;
+  gap: 20px;
+}
+
+.graph-details-container div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.graph-details-title {
+  color: #757a8a;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.graph-details-img {
+  width: 80%;
+}
+.amount {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.diff-percent-container-up {
+  color: #3183ff;
+}
+
+.diff-percent-container-down {
+  color: #ea7465;
+}
+
+.percentage {
+  font-size: 0.8rem;
+  font-weight: 400;
+}

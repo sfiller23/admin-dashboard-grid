@@ -1,0 +1,56 @@
+table {
+  font-size: 0.7rem;
+  color: #a098ae;
+}
+
+#buy-sell-table-container img {
+  width: 30px;
+}
+
+thead th {
+  display: flex;
+  font-weight: 400;
+}
+
+th:last-of-type {
+  justify-content: flex-end;
+}
+
+td {
+  display: flex;
+  align-items: center;
+}
+
+td:last-of-type {
+  justify-content: flex-end;
+}
+
+tr {
+  display: grid;
+  padding: 10px 0;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+tbody tr {
+  border-top: 1px solid rgb(224, 223, 235);
+}
+
+.first-table-col {
+  display: grid;
+  column-gap: 5px;
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: repeat(2, max-content);
+}
+
+.first-table-col img {
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+
+.first-table-col h4:first-of-type {
+  color: #130d33;
+}
+
+.first-table-col h4:last-of-type {
+  font-weight: 200;
+}

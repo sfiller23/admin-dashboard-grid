@@ -1,0 +1,14 @@
+#graph-map {
+  display: flex;
+  gap: 30px;
+}
+
+.graph-map-details {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.graph-map-details h6 {
+  color: #757a8a;
+  font-weight: 400;
+}

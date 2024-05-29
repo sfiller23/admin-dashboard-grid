@@ -1,0 +1,62 @@
+#buy-sell-form-container form {
+  display: grid;
+  height: 100%;
+  align-content: space-between;
+}
+
+#inputs-container {
+  display: grid;
+  row-gap: 10px;
+}
+
+form h1 {
+  font-weight: 500;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#switch-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ecf6f9;
+}
+
+#switch-container button {
+  width: 50%;
+  padding: 5px 0;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  border: none;
+}
+
+#buy {
+  background-color: #3183ff;
+  color: white;
+}
+
+#sell {
+  background-color: #ecf6f9;
+  color: #3183ff;
+}
+
+.input-label {
+  font-size: 0.7rem;
+  color: #a098ae;
+}
+.input {
+  border-radius: 5px;
+  background-color: #ecf6f9;
+  border-color: #b4ccf0;
+  height: 32px;
+}
+
+#submit-button {
+  background-color: #3183ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+}

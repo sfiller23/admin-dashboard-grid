@@ -1,0 +1,5 @@
+#buy-sell-table-container {
+  display: grid;
+  align-content: space-between;
+  padding: 20px;
+}

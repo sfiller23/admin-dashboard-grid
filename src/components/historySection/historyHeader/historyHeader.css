@@ -1,0 +1,25 @@
+#history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#history-button-group {
+  border: 1px solid rgb(224, 223, 235);
+  border-radius: 5px;
+}
+
+#history-button-group button {
+  background-color: transparent;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #757a8a;
+  font-size: 0.7rem;
+}
+
+#history-button-group .active {
+  background-color: #3183ff;
+  color: white;
+  font-weight: 300;
+}

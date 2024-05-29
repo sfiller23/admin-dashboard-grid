@@ -1,0 +1,24 @@
+#total-revenue {
+  display: grid;
+  align-content: space-between;
+}
+
+#total-revenue h6 {
+  color: #646464;
+  font-weight: 300;
+}
+
+#total-revenue .value {
+  color: #130d33;
+  font-weight: 400;
+}
+
+#total-revenue img {
+  max-height: 200px;
+}
+
+.revenue-details {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, max-content);
+}

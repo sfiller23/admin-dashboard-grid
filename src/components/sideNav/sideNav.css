@@ -1,0 +1,49 @@
+aside {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(3, max-content);
+  padding: 20px;
+  gap: 20px;
+  border-right: 1px solid rgb(224, 223, 235);
+}
+
+aside ul {
+  display: grid;
+  row-gap: 10px;
+}
+
+aside li {
+  display: grid;
+  column-gap: 7px;
+}
+
+aside h1 {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #646464;
+}
+
+ul h2 {
+  font-weight: 400;
+}
+
+#logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+#logo-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #3183ff;
+}
+
+#logo-img {
+  width: 30px;
+}
+.nav-item {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+}

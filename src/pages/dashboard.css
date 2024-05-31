@@ -2,8 +2,10 @@
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-columns: 1fr 7fr;
-  grid-template-rows: 100%;
+  /* grid-template-columns: 1fr 7fr;
+  grid-template-rows: 100%; */
+  grid-template-columns: repeat(auto-fit, minmax(max(20rem, 18%), auto));
+  grid-auto-rows: 1fr;
 }
 
 #main-content {
@@ -13,12 +15,13 @@
 
 main {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
-  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 49%));
   align-content: space-around;
-  margin: min(10%, 20px);
-  gap: min(10%, 20px);
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  margin: min(5%, 20px);
+  gap: min(5%, 20px);
 }
 
 section {

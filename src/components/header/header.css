@@ -16,6 +16,7 @@ header img {
 }
 
 #header-title h6 {
+  font-size: 0.8rem;
   color: #757a8a;
   font-weight: 300;
 }
@@ -25,11 +26,12 @@ header img {
 }
 
 #profile-container h2 {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 
 #profile-container h6 {
+  font-size: 0.8rem;
   font-weight: 200;
 }
 

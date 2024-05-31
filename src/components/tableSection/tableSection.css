@@ -2,4 +2,6 @@
   display: grid;
   align-content: space-between;
   padding: 20px;
+  width: 92%;
+  min-width: 30rem;
 }

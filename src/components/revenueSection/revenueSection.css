@@ -1,9 +1,13 @@
 #total-revenue {
   display: grid;
   align-content: space-between;
+  width: 40%;
+  min-width: 18rem;
+  row-gap: 15px;
 }
 
 #total-revenue h6 {
+  font-size: 0.9rem;
   color: #646464;
   font-weight: 300;
 }

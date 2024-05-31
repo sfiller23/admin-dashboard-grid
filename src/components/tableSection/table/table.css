@@ -1,5 +1,6 @@
 table {
-  font-size: 0.7rem;
+  width: 100%;
+  font-size: 0.9rem;
   color: #a098ae;
 }
 
@@ -10,6 +11,11 @@ table {
 thead th {
   display: flex;
   font-weight: 400;
+  justify-content: flex-end;
+}
+
+th:first-of-type {
+  justify-content: flex-start;
 }
 
 th:last-of-type {
@@ -19,20 +25,26 @@ th:last-of-type {
 td {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
-td:last-of-type {
-  justify-content: flex-end;
+td:first-of-type {
+  justify-content: flex-start;
 }
 
 tr {
   display: grid;
   padding: 10px 0;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 2fr repeat(2, 0.5fr) 1fr;
+  /* column-gap: 2rem; */
 }
 
 tbody tr {
   border-top: 1px solid rgb(224, 223, 235);
+}
+
+.number {
+  justify-content: center;
 }
 
 .first-table-col {

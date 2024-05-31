@@ -3,8 +3,8 @@ import "./formSection.css";
 const FormSection = () => {
   return (
     <section id="buy-sell-form-container">
+      <h1 className="section-title">Buy & Sell</h1>
       <form action="">
-        <h1 className="section-title">Buy & Sell</h1>
         <div id="switch-container">
           <button id="buy">Buy</button>
           <button id="sell">Sell</button>

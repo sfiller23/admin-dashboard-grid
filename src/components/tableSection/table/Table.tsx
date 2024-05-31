@@ -10,8 +10,8 @@ const Table = () => {
       <thead>
         <tr>
           <th>Billing to</th>
-          <th>Amount</th>
-          <th>Progress</th>
+          <th className="number">Amount</th>
+          <th className="number">Progress</th>
           <th>Payment Date</th>
         </tr>
       </thead>
@@ -22,8 +22,8 @@ const Table = () => {
             <h4>Venus PRO</h4>
             <h4>By Esthera Jackson</h4>
           </td>
-          <td>2.458</td>
-          <td>17.5%</td>
+          <td className="number">2.458</td>
+          <td className="number">17.5%</td>
           <td>24.Jan.2021</td>
         </tr>
         <tr>
@@ -32,8 +32,8 @@ const Table = () => {
             <h4>Uranus Kit</h4>
             <h4>By Nick Wilson</h4>
           </td>
-          <td>1.485</td>
-          <td>10.8%</td>
+          <td className="number">1.485</td>
+          <td className="number">10.8%</td>
           <td>12.Jun.2021</td>
         </tr>
         <tr>
@@ -42,8 +42,8 @@ const Table = () => {
             <h4>Swipe Circles</h4>
             <h4>By Peter Will</h4>
           </td>
-          <td>1.024</td>
-          <td>21.3%</td>
+          <td className="number">1.024</td>
+          <td className="number">21.3%</td>
           <td>5.Jan.2021</td>
         </tr>
         <tr>
@@ -52,8 +52,8 @@ const Table = () => {
             <h4>Mesh Gradients</h4>
             <h4>By Will Smith</h4>
           </td>
-          <td>858</td>
-          <td>31.5%</td>
+          <td className="number">858</td>
+          <td className="number">31.5%</td>
           <td>7.Mar.2021</td>
         </tr>
       </tbody>

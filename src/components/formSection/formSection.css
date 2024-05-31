@@ -1,7 +1,8 @@
-#buy-sell-form-container form {
+#buy-sell-form-container {
   display: grid;
-  height: 100%;
   align-content: space-between;
+  max-width: 40%;
+  min-width: 15rem;
 }
 
 #inputs-container {
@@ -22,12 +23,13 @@ form h1 {
   display: flex;
   justify-content: space-between;
   background-color: #ecf6f9;
+  margin: 20px 0;
 }
 
 #switch-container button {
   width: 50%;
   padding: 5px 0;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   border-radius: 5px;
   border: none;
 }
@@ -43,7 +45,7 @@ form h1 {
 }
 
 .input-label {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #a098ae;
 }
 .input {
@@ -59,4 +61,6 @@ form h1 {
   border: none;
   border-radius: 5px;
   padding: 10px 0;
+  font-weight: 600;
+  font-size: 1rem;
 }

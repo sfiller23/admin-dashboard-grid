@@ -36,7 +36,6 @@ tr {
   display: grid;
   padding: 10px 0;
   grid-template-columns: 2fr repeat(2, 0.5fr) 1fr;
-  /* column-gap: 2rem; */
 }
 
 tbody tr {

@@ -9,7 +9,9 @@ const HistorySection = () => {
     <section id="history">
       <HistoryHeader />
       <GraphMap />
-      <img src={mainGraph} alt="graph" />
+      <div id="history-main-graph-wrapper">
+        <img id="history-main-graph" src={mainGraph} alt="graph" />
+      </div>
       <hr />
       <GraphFooter />
     </section>

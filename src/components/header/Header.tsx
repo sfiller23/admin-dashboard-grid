@@ -14,8 +14,8 @@ const Header = () => {
         <h2>Gracetrans</h2>
         <h6>admin</h6>
         <IoMdArrowDropdown id="profile-down-arrow" />
+        <img id="notifications-img" src={notifications} alt="notifications" />
       </div>
-      <img src={notifications} alt="notifications" />
     </header>
   );
 };

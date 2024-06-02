@@ -2,6 +2,18 @@
   display: grid;
   row-gap: 10px;
   padding: 20px;
-  max-width: 100%;
-  min-width: min-content;
+  align-content: center;
+  width: fit-content;
+}
+
+#history img {
+  justify-self: center;
+}
+
+#history-main-graph-wrapper {
+  display: grid;
+}
+#history-main-graph {
+  width: 100%;
+  object-fit: cover;
 }
